@@ -1,5 +1,5 @@
-import { NotificationType } from '../../types';
-import { useNotification } from '../../useNotification';
+import { NotificationType } from '../types';
+import { useNotification } from '../useNotification';
 import { Popup } from './index';
 
 export const PopupContainer = () => {

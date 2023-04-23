@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
-import { NotificationType } from '../../types';
-import { useNotification } from '../../useNotification';
-import { Alert } from '../Alert';
+import { NotificationType } from '../types';
+import { useNotification } from '../useNotification';
+import { Alert } from './index';
 
 export const AlertContainer = () => {
   const { getFilteredQueue } = useNotification();
