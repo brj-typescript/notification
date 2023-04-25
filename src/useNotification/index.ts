@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 import {
   IgnorableTagsLocalStorageKey,
   InternalNotification,
@@ -13,6 +12,7 @@ import { isNotificationIgnored } from '../core/isNotificationIgnored';
 import { isFreshNotification } from '../core/isFreshNotification';
 import { resolveIgnorableTag } from '../core/resolveIgnorableTag';
 import { useShareObject } from '@brj-typescript/global-context';
+import { uuid } from "@brj-typescript/system";
 import { ReactNode } from 'react';
 
 export const useNotification = () => {
@@ -55,7 +55,7 @@ export const useNotification = () => {
       addIgnorableTag(ignorableTag);
     }
     addNotification({
-      id: `${tag ? `${tag}_` : ''}${uuidv4()}`,
+      id: `${tag ? `${tag}_` : ''}${uuid()}`,
       type: type,
       open: true,
       tag: tag,

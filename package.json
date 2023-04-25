@@ -17,14 +17,13 @@
 	],
 	"dependencies": {
 		"@brj-typescript/global-context": "^1.0",
+		"@brj-typescript/system": "^1.0",
 		"@mui/icons-material": "^5.6.0",
 		"@mui/material": "^5.6.0",
 		"@types/jest": "~27.0.3",
 		"@types/node": "^17.0.14",
 		"@types/react": "^18.0.12",
-		"@types/uuid": "^8.3.4",
-		"typescript": "^4.6.3",
-		"uuid": "^9.0.0"
+		"typescript": "^4.6.3"
 	},
 	"peerDependencies": {
 		"react": "^16.8.0",
