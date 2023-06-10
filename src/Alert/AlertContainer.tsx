@@ -1,3 +1,5 @@
+'use client';
+
 import { Box } from '@mui/material';
 import { NotificationType } from '../types';
 import { useNotification } from '../useNotification';

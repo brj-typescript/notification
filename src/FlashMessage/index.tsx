@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Stack } from '@mui/material';
 import { NotificationType, NotificationVariant } from '../types';
 import { ReactNode } from 'react';
@@ -24,7 +26,7 @@ export const FlashMessage = () => {
     <Box sx={{ position: 'fixed', left: '2.5em', bottom: '9em', zIndex: 1000, width: '350px' }}>
       <Stack sx={{ width: '100%' }} spacing={2}>
         {getFilteredQueue(NotificationType.FlashMessage).map((flashMessage) => (
-          <FlashMessageItem flashMessage={flashMessage} key={flashMessage.id}/>
+          <FlashMessageItem flashMessage={flashMessage} key={flashMessage.id} />
         ))}
       </Stack>
     </Box>

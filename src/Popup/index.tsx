@@ -1,3 +1,5 @@
+'use client';
+
 import { FC } from 'react';
 import { Button, Dialog, DialogActions, DialogTitle } from '@mui/material';
 import { InternalNotification } from '../types';

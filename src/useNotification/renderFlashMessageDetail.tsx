@@ -1,3 +1,5 @@
+'use client';
+
 import { ReactNode } from 'react';
 import { Color } from '@brj-typescript/global-context';
 import { Box } from '@mui/material';

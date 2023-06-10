@@ -1,3 +1,5 @@
+'use client';
+
 import { InternalNotification } from '../types';
 import { Box, IconButton } from '@mui/material';
 import { variants } from './index';

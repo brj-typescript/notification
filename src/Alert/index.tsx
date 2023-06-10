@@ -1,3 +1,5 @@
+'use client';
+
 import { InternalNotification, NotificationVariant } from '../types';
 import { FC, ReactElement } from 'react';
 import { Color } from '@brj-typescript/global-context';

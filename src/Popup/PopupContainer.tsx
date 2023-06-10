@@ -1,3 +1,5 @@
+'use client';
+
 import { NotificationType } from '../types';
 import { useNotification } from '../useNotification';
 import { Popup } from './index';
